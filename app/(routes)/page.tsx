@@ -7,7 +7,7 @@ import { Salesdistributor } from "./components/Salesdistributors";
 import { TotalSuscribers } from "./components/TotalSuscribers";
 import { ListIntegrations } from "./components/ListItengrations";
 
-export const dataCardsSummary = [
+const dataCardsSummary = [
   {
     icon: UsersRound,
     total: "12.450",
@@ -51,7 +51,7 @@ export default function Home() {
         <LastCustomers />
         <Salesdistributor />
       </div>
-      <div className="flex-col md:gap-x-10 xl:flex xl:flex-row gap-y-4 md:gap-y-0 mt-12 md:mb-10 justify-center">
+      <div className="flex-col justify-center mt-12 md:gap-x-10 xl:flex xl:flex-row gap-y-4 md:gap-y-0 md:mb-10">
         <TotalSuscribers />
         <ListIntegrations />
       </div>
